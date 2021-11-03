@@ -1,1 +1,4 @@
-console.log("Hello world!");
+import dotenv from "dotenv";
+dotenv.config();
+
+console.log(process.env.KEY);
